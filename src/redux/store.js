@@ -4,11 +4,15 @@ const adviceSlice = createSlice({
   name: 'advice',
   initialState: {
     text: '',
+    id: 0,
     isFetching: false
   },
   reducers: {
     setAdvice(state, action){
       state.text = action.payload
+    },
+    setAdviceNum(state, action){
+      state.id = action.payload
     },
     setIsFetching(state, action){
       state.isFetching = action.payload
@@ -16,7 +20,7 @@ const adviceSlice = createSlice({
   }
 })
 
-export const {setAdvice, setIsFetching} = adviceSlice.actions
+export const {setAdvice, setAdviceNum, setIsFetching} = adviceSlice.actions
 
 const adviceReducer = adviceSlice.reducer
 

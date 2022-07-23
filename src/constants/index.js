@@ -1,0 +1,2 @@
+export const PRELOADER_URL = 'https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif'
+export const BTN_URL = 'https://nathanyee412.github.io/advice-generator-app/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg'
