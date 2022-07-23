@@ -7,7 +7,7 @@
 body {
   background-color: #202632;
   font-size: 15px;
-  font-family: cursive;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .adviceWrap {
